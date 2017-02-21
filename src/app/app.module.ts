@@ -5,16 +5,21 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CodingChallengeComponent } from './coding-challenge/coding-challenge.component';
+import { HomeComponent } from './coding-challenge/home/home.component';
+
+import { routes } from './routes';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CodingChallengeComponent
+    CodingChallengeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routes
   ],
   providers: [],
   bootstrap: [AppComponent]
