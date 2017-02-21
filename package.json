@@ -40,6 +40,8 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.0",
+    "stylelint": "^7.9.0",
+    "stylelint-config-standard": "^16.0.0",
     "ts-node": "~2.0.0",
     "tslint": "~4.4.2",
     "typescript": "2.1.6"
