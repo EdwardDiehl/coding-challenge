@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { CodingChallengeComponent } from './coding-challenge/coding-challenge.component';
 import { HomeComponent } from './coding-challenge/home/home.component';
+import { SidebarComponent } from './coding-challenge/sidebar/sidebar.component';
 
 import { routes } from './routes';
 
@@ -14,7 +15,8 @@ import { routes } from './routes';
   declarations: [
     AppComponent,
     CodingChallengeComponent,
-    HomeComponent
+    HomeComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
