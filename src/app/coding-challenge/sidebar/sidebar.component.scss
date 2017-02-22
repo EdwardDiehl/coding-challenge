@@ -27,7 +27,6 @@
 }
 
 .sidebar__nav li {
-    text-indent: 20px;
     line-height: 40px;
 }
 
@@ -35,6 +34,16 @@
     display: block;
     text-decoration: none;
     color: #999999;
+}
+
+.sidebar__nav-link-text {
+    margin-left: 10px;
+}
+
+.sidebar__nav-link-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .sidebar__nav li a:hover {
