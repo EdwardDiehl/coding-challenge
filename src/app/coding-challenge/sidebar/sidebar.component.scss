@@ -11,7 +11,7 @@
     line-height: 40px;
 }
 
-.sidebar__nav li a {
+.sidebar__nav-link {
     display: block;
     text-decoration: none;
     color: #999999;
@@ -29,14 +29,14 @@
     float: right;
 }
 
-.sidebar__nav li a:hover {
+.sidebar__nav-link:hover {
     text-decoration: none;
     color: #fff;
     background: rgba(255,255,255,0.2);
 }
 
-.sidebar__nav li a:active,
-.sidebar__nav li a:focus {
+.sidebar__nav-link:active,
+.sidebar__nav-link:focus {
     text-decoration: none;
 }
 
@@ -46,13 +46,16 @@
     line-height: 60px;
 }
 
-.sidebar__brand a {
+.sidebar__brand-link {
+    display: block;
+    text-decoration: none;
     color: #999999;
 }
 
-.sidebar__brand a:hover {
+.sidebar__brand-link:hover {
+    text-decoration: none;
     color: #fff;
-    background: none;
+    background: rgba(255,255,255,0.2);
 }
 
 @media(max-width: 767px) {
