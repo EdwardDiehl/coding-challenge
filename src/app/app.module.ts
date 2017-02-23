@@ -8,6 +8,9 @@ import { AppComponent } from './app.component';
 import { CodingChallengeComponent } from './coding-challenge/coding-challenge.component';
 import { HomeComponent } from './coding-challenge/home/home.component';
 import { SidebarComponent } from './coding-challenge/sidebar/sidebar.component';
+import { TodoComponent } from './coding-challenge/todo/todo.component';
+
+import { LocalStorageService } from './shared/services/local-storage.service'
 
 import { routes } from './routes';
 
@@ -16,7 +19,8 @@ import { routes } from './routes';
     AppComponent,
     CodingChallengeComponent,
     HomeComponent,
-    SidebarComponent
+    SidebarComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { routes } from './routes';
     NgbModule.forRoot(),
     routes
   ],
-  providers: [],
+  providers: [
+    LocalStorageService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
