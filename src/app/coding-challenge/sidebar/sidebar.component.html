@@ -5,15 +5,15 @@
         </li>
 
         <li>
-            <a class="sidebar__nav-link" routerLink=""><span class="sidebar__nav-link-text">Home</span><span class="sidebar__nav-link-icon glyphicon glyphicon-home"></span></a>
+            <a class="sidebar__nav-link" routerLink="" routerLinkActive="sidebar__nav-link--active" [routerLinkActiveOptions]="{ exact: true }"><span class="sidebar__nav-link-text">Home</span><span class="sidebar__nav-link-icon glyphicon glyphicon-home"></span></a>
         </li>
 
         <li>
-            <a class="sidebar__nav-link" routerLink="/todo"><span class="sidebar__nav-link-text">ToDo</span><span class="sidebar__nav-link-icon glyphicon glyphicon-list-alt"></span></a>
+            <a class="sidebar__nav-link" routerLink="/todo" routerLinkActive="sidebar__nav-link--active"><span class="sidebar__nav-link-text">ToDo</span><span class="sidebar__nav-link-icon glyphicon glyphicon-list-alt"></span></a>
         </li>
 
         <li>
-            <a class="sidebar__nav-link" routerLink="/joke"><span class="sidebar__nav-link-text">Joke</span><span class="sidebar__nav-link-icon glyphicon glyphicon-thumbs-up"></span></a>
+            <a class="sidebar__nav-link" routerLink="/joke" routerLinkActive="sidebar__nav-link--active"><span class="sidebar__nav-link-text">Joke</span><span class="sidebar__nav-link-icon glyphicon glyphicon-thumbs-up"></span></a>
         </li>
     </ul>
 </div>

@@ -40,6 +40,11 @@
     text-decoration: none;
 }
 
+.sidebar__nav-link--active {
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
 .sidebar__brand {
     height: 65px;
     font-size: 18px;
