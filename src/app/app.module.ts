@@ -11,6 +11,7 @@ import { SidebarComponent } from './coding-challenge/sidebar/sidebar.component';
 import { TodoComponent } from './coding-challenge/todo/todo.component';
 
 import { LocalStorageService } from './shared/services/local-storage.service'
+import { CodingChallengeService } from './shared/services/coding-challenge.service'
 
 import { routes } from './routes';
 
@@ -30,7 +31,8 @@ import { routes } from './routes';
     routes
   ],
   providers: [
-    LocalStorageService
+    LocalStorageService,
+    CodingChallengeService
   ],
   bootstrap: [AppComponent]
 })

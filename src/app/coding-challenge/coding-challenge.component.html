@@ -1,4 +1,21 @@
-<p>
-  coding-challenge works!
-</p>
-<router-outlet></router-outlet>
+<div class="coding-challenge__wrapper">
+
+    <!-- Sidebar -->
+    <div class="coding-challenge__sidebar-wrapper">
+        <sidebar></sidebar>
+    </div>
+    <!-- Sidebar -->
+
+    <!-- Page Content -->
+    <div class="coding-challenge__content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Content -->
+
+</div>

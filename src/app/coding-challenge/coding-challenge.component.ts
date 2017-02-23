@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CodingChallengeService } from '../shared/services/coding-challenge.service';
 
 @Component({
   selector: 'coding-challenge',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CodingChallengeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _codingChallengeService: CodingChallengeService) { }
 
   ngOnInit() {
+  }
+
+  isSidebarExpanded(): boolean {
+    return this._codingChallengeService.isSidebarExpanded;
   }
 
 }
