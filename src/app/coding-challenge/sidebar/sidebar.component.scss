@@ -41,9 +41,11 @@
 }
 
 .sidebar__nav-link-icon {
+    margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
     margin-top: 10px;
+    float: right;
 }
 
 .sidebar__nav li a:hover {
@@ -77,5 +79,13 @@
         left: 50px;
         width: 50px;
         margin-left: -50px;
+    }
+
+    .sidebar__nav-link-text {
+        display: none;
+    }
+
+    .sidebar__nav-link-icon {
+        float: none;
     }
 }
