@@ -9,9 +9,11 @@ import { CodingChallengeComponent } from './coding-challenge/coding-challenge.co
 import { HomeComponent } from './coding-challenge/home/home.component';
 import { SidebarComponent } from './coding-challenge/sidebar/sidebar.component';
 import { TodoComponent } from './coding-challenge/todo/todo.component';
+import { JokeComponent } from './coding-challenge/joke/joke.component';
 
-import { LocalStorageService } from './shared/services/local-storage.service'
 import { CodingChallengeService } from './shared/services/coding-challenge.service'
+import { LocalStorageService } from './shared/services/local-storage.service'
+import { JokeService } from './shared/services/joke.service'
 
 import { routes } from './routes';
 
@@ -21,7 +23,8 @@ import { routes } from './routes';
     CodingChallengeComponent,
     HomeComponent,
     SidebarComponent,
-    TodoComponent
+    TodoComponent,
+    JokeComponent
   ],
   imports: [
     BrowserModule,
@@ -31,8 +34,9 @@ import { routes } from './routes';
     routes
   ],
   providers: [
+    CodingChallengeService,
     LocalStorageService,
-    CodingChallengeService
+    JokeService
   ],
   bootstrap: [AppComponent]
 })

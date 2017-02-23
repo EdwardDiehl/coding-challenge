@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   public readonly header: string = 'Hello World!!!'
-  public readonly text: string = 'Welcome to the Code Challenge Demo app :)'
+  public readonly text: string = 'Welcome to the Code Challenge Demo app.'
 
   ngOnInit() {
   }
