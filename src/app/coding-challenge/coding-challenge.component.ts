@@ -16,5 +16,4 @@ export class CodingChallengeComponent implements OnInit {
   isSidebarExpanded(): boolean {
     return this._codingChallengeService.isSidebarExpanded;
   }
-
 }

@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public readonly header: string = 'Hello World!!!';
+  public readonly text: string = 'Welcome to the Code Challenge Demo app.';
 
-  public readonly header: string = 'Hello World!!!'
-  public readonly text: string = 'Welcome to the Code Challenge Demo app.'
+  constructor() { }
 
   ngOnInit() {
   }

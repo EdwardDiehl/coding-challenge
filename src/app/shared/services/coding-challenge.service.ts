@@ -3,9 +3,9 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class CodingChallengeService {
 
-  constructor() { }
-
   private _isSidebarExpanded: boolean = true;
+
+  constructor() { }
 
   toggleSidebar(): void {
     this._isSidebarExpanded = !this._isSidebarExpanded;

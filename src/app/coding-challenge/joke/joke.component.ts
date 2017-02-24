@@ -8,10 +8,10 @@ import { JokeService } from './../../shared/services/joke.service';
 })
 export class JokeComponent implements OnInit {
 
-  constructor(private _jokeService: JokeService) { }
-
   public readonly header: string = 'Time for some Joke ;)';
   public joke: any = { value: { joke: '' }};
+
+  constructor(private _jokeService: JokeService) { }
 
   ngOnInit() {
     this.getJoke();

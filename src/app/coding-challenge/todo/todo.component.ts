@@ -8,10 +8,10 @@ import { LocalStorageService } from './../../shared/services/local-storage.servi
 })
 export class TodoComponent implements OnInit {
 
-  constructor(private _localStorageService: LocalStorageService) { }
+  public readonly header: string = 'TODO List';
+  public readonly text: string = 'Coming soon.';
 
-  public readonly header: string = 'TODO List'
-  public readonly text: string = 'Coming soon.'
+  constructor(private _localStorageService: LocalStorageService) { }
 
   ngOnInit() {
   }

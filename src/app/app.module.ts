@@ -11,9 +11,9 @@ import { SidebarComponent } from './coding-challenge/sidebar/sidebar.component';
 import { TodoComponent } from './coding-challenge/todo/todo.component';
 import { JokeComponent } from './coding-challenge/joke/joke.component';
 
-import { CodingChallengeService } from './shared/services/coding-challenge.service'
-import { LocalStorageService } from './shared/services/local-storage.service'
-import { JokeService } from './shared/services/joke.service'
+import { CodingChallengeService } from './shared/services/coding-challenge.service';
+import { LocalStorageService } from './shared/services/local-storage.service';
+import { JokeService } from './shared/services/joke.service';
 
 import { routes } from './routes';
 
